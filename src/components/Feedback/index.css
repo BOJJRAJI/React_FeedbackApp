@@ -1,0 +1,67 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to left, #ffeeee, #ffc0bb);
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #ffffff;
+  padding: 50px;
+}
+.heading {
+  font-size: 25px;
+  font-family: 'Roboto';
+  color: #0f172a;
+}
+.para {
+  color: #1e293b;
+  font-size: 16px;
+  font-family: 'Roboto';
+}
+.love-heading {
+  font-size: 25px;
+  font-family: 'Roboto';
+  color: #0f172a;
+}
+.emoji-heading {
+  font-size: 14px;
+  font-family: 'Roboto';
+  color: #1e293b;
+}
+
+.emojis-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px;
+  flex-wrap: wrap;
+}
+.thank-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  flex-wrap: wrap;
+}
+.emoji-container {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  margin-right: 60px;
+}
+.emoji {
+  height: 50px;
+  width: 50px;
+}
+.love-image {
+  height: 80px;
+  width: 80px;
+}
